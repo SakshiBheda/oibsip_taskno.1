@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: rgba(206, 156, 221, 0.753);
+    font-family: sans-serif;
+    outline: none;
+}
+
+
+#container{
+
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+button.h:hover{
+    font-size:25px ;
+}
+button.h:active {
+    background-color: #caa5d1;
+    transform: translateY(1px);
+    
+}
+
+#calculator{
+    background-color: rgba(202, 167, 221, 0.753);
+    padding:15px;
+    border-radius:30px;
+    box-shadow: inset 5px 5px 12px rgba(212, 167, 238, 0.753);
+    box-shadow:inset -5px -5px 12px rgb(133, 126, 126);
+    display:grid;  
+    grid-template-columns: repeat(4,68px);     
+    padding-bottom:60px;    
+    
+}
+#Display{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    box-shadow: inset -5px -5px 12px rgba(180, 141, 202, 0.753),
+                inset  5px 5px 12px rgba(84, 77, 90, 0.753);
+    border: none; 
+    border-radius: 20PX;
+    font-size:35px;
+    text-align: right;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-right:10px;
+    
+}
+
+#currentDate{
+       height:25px;
+       border-radius:10px;
+       border:none;
+
+}
+button{
+    height:48px;
+    width:48px;
+    background-color:rgba(197, 172, 211, 0.753) ;
+    box-shadow: -5px -5px 12px rgb(173, 150, 187),
+                5px 5px 12px rgb(134, 127, 127);
+    border:none;
+    border-radius: 20px;
+    margin:8px;
+    font-size:20px;
+}
+.equal{
+    width:100px;
+    font-size:20px;
+    
+}
+#name{
+    width: 250px;
+    height: 100px;
+    transform:none;                             
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
